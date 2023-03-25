@@ -1,0 +1,30 @@
+.addnote-form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title,
+.content {
+    font-weight: bolder;
+}
+
+#title {
+    padding: 1em 10em;
+    border-radius: 10px 10px 10px 10px;
+    border-color: aquamarine;
+}
+
+#content {
+    padding: 5em 10em;
+    border-radius: 10px 10px 10px 10px;
+    border-color: aquamarine;
+}
+
+.addnote>button {
+    color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(12, 17, 97);
+    padding: 1em 10em;
+}
