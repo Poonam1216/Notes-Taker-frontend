@@ -18,7 +18,7 @@ const Login = () => {
 
     const handleSubmition = async (e) => {
         e.preventDefault();
-        await fetch("https:localhost:3004/api/login", {
+        await fetch("https://backend-notes-3jgf.onrender.com/api/login", {
             method: "POST",
             headers: {
                 Accept: "application/json",

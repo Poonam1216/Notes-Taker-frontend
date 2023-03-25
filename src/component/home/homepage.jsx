@@ -8,7 +8,7 @@ const HomePage = () => {
     const [searchedVal, setSearchedVal] = useState("");
     const [loader, setloader] = useState("loading...")
     const handleDelete = (id) => {
-        fetch(`http://localhost:3004/api/notes/${id}`, {
+        fetch(`https://backend-notes-3jgf.onrender.com/api/notes/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
@@ -25,7 +25,7 @@ const HomePage = () => {
     useEffect(() => {
         let Token = localStorage.getItem("token");
 
-        fetch("http://localhost:3004/api/notes", {
+        fetch("https://backend-notes-3jgf.onrender.com/api/notes", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"

@@ -20,7 +20,7 @@ const Addnote = () => {
     const handleSubmition = async (e) => {
         let Token = localStorage.getItem("token")
         e.preventDefault();
-        await fetch("http://localhost:3004/api/notes", {
+        await fetch("https://backend-notes-3jgf.onrender.com/api/notes", {
             method: "POST",
             headers: {
                 Authorization: Token,

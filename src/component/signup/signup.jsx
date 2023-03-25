@@ -22,7 +22,7 @@ const Signup = () => {
     const handleSubmition = async (e) => {
         e.preventDefault();
         setLoader("Verfying...")
-        await fetch("http://localhost:3004/api/signup", {
+        await fetch("https://backend-notes-3jgf.onrender.com/api/signup", {
             method: "POST",
             headers: {
                 Accept: "application/json",
