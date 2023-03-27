@@ -19,7 +19,7 @@
 #content {
     padding: 5em 10em;
     border-radius: 10px 10px 10px 10px;
-    border-color: aquamarine;
+    border-color: rgb(160, 193, 182);
 }
 
 .addnote>button {

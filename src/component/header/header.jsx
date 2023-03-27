@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link to="/homepage"><li> Home</li></Link>
                     <Link to="/addnote"><li>+ Addnote</li></Link>
                     <li>x DeleteAll</li>
-                    <li>⬇️Export</li>
+                    <li>Export</li>
                     <li >
                         <button className="logout-btn" onClick={handleLogout}>LOGOUT</button>
                     </li>
